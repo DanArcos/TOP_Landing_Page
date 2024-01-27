@@ -1,0 +1,17 @@
+body{
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    color: white;
+    background-color: #1f2937;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
