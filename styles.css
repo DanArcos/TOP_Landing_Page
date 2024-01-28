@@ -1,6 +1,6 @@
 body{
     /* Set height equal to the viewport */
-    height: 100vh;
+    /* height: 100vh; */
     margin:0;
     font-family: 'Roboto';
     display: flex;
@@ -107,6 +107,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
+    padding-bottom: 50px;
     gap: 32px;
     /* flex-grow: 1; */
 }
@@ -141,12 +142,27 @@ body{
 }
 
 /* Quote */
+.quote_container{
+    background-color: #e5e7eb;
+    padding: 100px 280px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
 .quote{
-    flex-grow: 1;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote_attribution{
+    font-weight: 700;
+    align-self: flex-end;
 }
 
 .action_call{
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 /* Styling for the footer */
