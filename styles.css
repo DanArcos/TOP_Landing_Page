@@ -124,7 +124,7 @@ body {
 .card_container {
   display: flex;
   justify-content: center;
-  width: 500px;
+  width: 800px;
   gap: 64px;
 }
 
@@ -133,14 +133,22 @@ body {
   flex-direction: column;
   gap: 16px;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .image {
-  border: 5px solid #3882f6;
+  /* border: 5px solid #3882f6; */
   border-radius: 10px;
   height: 140px;
   width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
 }
 
 /* Quote */
